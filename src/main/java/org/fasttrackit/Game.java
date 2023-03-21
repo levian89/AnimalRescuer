@@ -2,7 +2,8 @@ package org.fasttrackit;
 
 public class Game {
 
-    Adopter adopter;
+    Rescuer rescuer;
     Animal dog;
+    Animal cat;
     VetDoctor vetDoctor;
 }

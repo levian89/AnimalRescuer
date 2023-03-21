@@ -1,6 +1,6 @@
 package org.fasttrackit;
 
-public class Adopter {
+public class Rescuer {
 
     String name;
     int availableMoneyAmount;

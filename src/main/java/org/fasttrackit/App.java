@@ -8,14 +8,14 @@ public class App
     public static void main( String[] args )
     {
 
-        Adopter adopter1 = new Adopter();
-        adopter1.name = "Levi";
-        adopter1.availableMoneyAmount = 5000;
-        System.out.println("Name of the adopter: " + adopter1.name);
-        System.out.println("Adopter's available amount of money: " +adopter1.availableMoneyAmount);
+        Rescuer rescuer1 = new Rescuer();
+        rescuer1.name = "Levi";
+        rescuer1.availableMoneyAmount = 5000;
+        System.out.println("Name of the Rescuer: " + rescuer1.name);
+        System.out.println("Rescuer's available amount of money: " +rescuer1.availableMoneyAmount);
 
 
-        Animal dog = new Animal();
+        Dog dog = new Dog();
         dog.name = "Cooper";
         dog.age = 2;
         dog.healthLevel = 10;
@@ -36,7 +36,7 @@ public class App
         animalsFood1.name = "Pedigree nuggets";
         animalsFood1.price = 50;
         animalsFood1.quantity = 500;
-        animalsFood1.expirationDate = LocalDateTime.of(2023,10,31,12,00) ;
+        animalsFood1.expirationDate = LocalDateTime.of(2023,10,31,12,00);
         animalsFood1.stockAvailability = true;
         System.out.println("Name of the animals food: " + animalsFood1.name);
         System.out.println("Price of the food: " + animalsFood1.price);
