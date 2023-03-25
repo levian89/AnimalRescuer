@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 import java.time.*;
 
-public class AnimalsFood {
+public class Food {
 
     String name;
     int price;
@@ -10,7 +10,11 @@ public class AnimalsFood {
     LocalDateTime expirationDate;
     boolean stockAvailability;
 
-   public AnimalsFood(String name) {
+    public Food(String name) {
         this.name = name;
-   }
+    }
+
+//    public String toString() {
+//        return String.format("name - %s", name);
+//    }
 }

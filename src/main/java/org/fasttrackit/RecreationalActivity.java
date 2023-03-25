@@ -8,4 +8,8 @@ public class RecreationalActivity {
         this.name = name;
     }
 
+//    public String toString() {
+//        return String.format("name - %s", name);
+//    }
+
 }

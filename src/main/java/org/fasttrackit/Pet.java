@@ -2,12 +2,16 @@ package org.fasttrackit;
 
 public class Pet extends Animal{
 
-    int hungerLevel;
-    int healthLevel;
-    int moodLevel;
 
-    public Pet(String name, int hungerLevel) {
+    int healthLevel;
+
+
+    public Pet(String name, int healthLevel) {
         super(name);
-        this.hungerLevel = hungerLevel;
+        this.healthLevel = healthLevel;
     }
+
+    //public String toString() {
+      //  return String.format("name - %s, hungerLevel - %d", name, hungerLevel);
+    //}
 }
